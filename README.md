@@ -1,6 +1,6 @@
 ![logo](https://github.com/sensorsdata/sa-sdk-android/raw/master/docs/logo.png)
 <br><br>
-[![License](https://img.shields.io/github/license/sensorsdata/sa-sdk-ios.svg)](https://github.com/sensorsdata/sa-sdk-ios/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/sensorsdata/sa-sdk-mac.svg)](https://github.com/sensorsdata/sa-sdk-mac/blob/master/LICENSE)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/sensorsdata/sa-sdk-mac.svg)](http://isitmaintained.com/project/sensorsdata/sa-sdk-mac "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/sensorsdata/sa-sdk-mac.svg)](http://isitmaintained.com/project/sensorsdata/sa-sdk-mac "Percentage of issues still open")
 [![GitHub release](https://img.shields.io/github/tag/sensorsdata/sa-sdk-mac.svg?label=release)](https://github.com/sensorsdata/sa-sdk-mac/releases)
@@ -24,7 +24,7 @@
 - 1. 在您的 GitHub 账户下 fork sa-sdk-mac 开源项目；
 - 2. 根据您的需求在本地 clone 一份 sa-sdk-mac 源码；
 - 3. 您修改或者新增功能后，push 到您 fork 的远程分支；
-- 4. 创建 pull request，向 sa-sdk-ios 官方开发分支提交合入请求；
+- 4. 创建 pull request，向 sa-sdk-mac 官方开发分支提交合入请求；
 - 5. 神策 SDK 研发团队会及时 review 代码，测试通过后合入。
 
 ## 讨论
