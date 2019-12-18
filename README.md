@@ -15,6 +15,10 @@
 
 神策数据官方 Mac 埋点 SDK，是一款轻量级用于Mac 端 App 的数据采集埋点 SDK。https://www.sensorsdata.cn
 
+## 集成文档
+
+请参考神策官网 [Mac SDK 集成文档](http://manual.sensorsdata.cn/sa/latest/page-7538663.html)。
+
 ## 贡献
 
 - 1. 在您的 GitHub 账户下 fork sa-sdk-mac 开源项目；
