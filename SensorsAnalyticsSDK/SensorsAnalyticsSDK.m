@@ -841,7 +841,7 @@ static SensorsAnalyticsSDK *sharedInstance = nil;
     });
 }
 
-//获取设备型号，例如 MacBookPro14,1
+// mac 机型标识符，例如 MacBookPro14,1，对应：MacBook Pro（13 英寸，2017 年，两个雷雳 3 端口）
 - (NSString *)getMacModelIdentifier {
     NSString *result=@"Unknown Mac";
     size_t len=0;
@@ -872,15 +872,6 @@ static SensorsAnalyticsSDK *sharedInstance = nil;
         self.distinctId = distinctId;
         [self archiveDistinctId];
     });
-}
-
-- (NSString *)deviceModel {
-    size_t size;
-    sysctlbyname("hw.machine", NULL, &size, NULL, 0);
-    char answer[size];
-    sysctlbyname("hw.machine", answer, &size, NULL, 0);
-    NSString *results = @(answer);
-    return results;
 }
 
 - (NSString *)libVersion {
@@ -989,8 +980,7 @@ static SensorsAnalyticsSDK *sharedInstance = nil;
 
 - (NSDictionary *)collectAutomaticProperties {
     NSMutableDictionary *p = [NSMutableDictionary dictionary];
-    //    UIDevice *device = [UIDevice currentDevice];
-    _deviceModel = [self deviceModel];
+    _deviceModel = [self getMacModelIdentifier];
 
     [p setValue:[[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"] forKey:@"$app_version"];
 
