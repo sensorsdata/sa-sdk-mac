@@ -24,7 +24,7 @@
 #import "SACommonUtility.h"
 
 
-#define VERSION @"1.0.0"
+#define VERSION @"1.0.1"
 #define PROPERTY_LENGTH_LIMITATION 8191
 /**
  * @abstract
