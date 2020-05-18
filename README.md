@@ -1,4 +1,4 @@
-![logo](https://github.com/sensorsdata/sa-sdk-android/raw/master/docs/logo.png)
+![logo](https://opensource.sensorsdata.cn/wp-content/uploads/logo.png)
 <br><br>
 [![License](https://img.shields.io/github/license/sensorsdata/sa-sdk-mac.svg)](https://github.com/sensorsdata/sa-sdk-mac/blob/master/LICENSE)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/sensorsdata/sa-sdk-mac.svg)](http://isitmaintained.com/project/sensorsdata/sa-sdk-mac "Average time to resolve an issue")
@@ -13,7 +13,11 @@
 
 ## SDK 简介
 
-神策数据官方 macOS 埋点 SDK，是一款轻量级用于 macOS 端 App 的数据采集埋点 SDK。https://www.sensorsdata.cn
+神策数据官方 macOS 埋点 SDK，是一款轻量级用于 macOS 端 App 的数据采集埋点 SDK，目前支持代码埋点。
+
+## 基本要求
+
+macOS 10.10 及以上，Xcode 9.0 及以上。
 
 ## 集成文档
 
@@ -29,12 +33,25 @@
 
 ## 讨论
 
-可以扫码加入神策官方 SDK QQ 讨论群：<br><br>
-![ QQ 讨论群](https://github.com/sensorsdata/sa-sdk-android/raw/master/docs/qrCode.jpeg)
+| 扫码加入神策数据开源社区 QQ 群<br>群号：785122381            | 扫码加入神策数据开源社区微信群                               |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![ QQ 讨论群](https://opensource.sensorsdata.cn/wp-content/uploads/ContentCommonPic_1.png) | ![ 微信讨论群 ](https://opensource.sensorsdata.cn/wp-content/uploads/ContentCommonPic_2.png) |
+
+## 公众号
+
+| 扫码关注<br>神策数据开源社区                                 | 扫码关注<br>神策数据开源社区服务号                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![ 微信订阅号 ](https://opensource.sensorsdata.cn/wp-content/uploads/ContentCommonPic_3.png) | ![ 微信服务号 ](https://opensource.sensorsdata.cn/wp-content/uploads/ContentCommonPic_4.png) |
+
+## 新书推荐
+
+| 《数据驱动：从方法到实践》 | 《Android 全埋点解决方案》 | 《iOS 全埋点解决方案》
+| ------ | ------ | ------ |
+| [![《数据驱动：从方法到实践》](https://opensource.sensorsdata.cn/wp-content/uploads/data_driven_book_1.jpg)](https://item.jd.com/12322322.html) | [![《Android 全埋点解决方案》](https://opensource.sensorsdata.cn/wp-content/uploads/Android-全埋点thumbnail_1.png)](https://item.jd.com/12574672.html) | ![《iOS 全埋点解决方案》](https://opensource.sensorsdata.cn/wp-content/uploads/iOS-全埋点thumbnail_1.png)
 
 ## License
 
-Copyright 2015－2019 Sensors Data Inc.
+Copyright 2015－2020 Sensors Data Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
