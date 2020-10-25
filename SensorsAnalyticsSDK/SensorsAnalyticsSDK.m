@@ -24,7 +24,7 @@
 #import "SACommonUtility.h"
 
 
-#define VERSION @"1.0.2"
+#define VERSION @"1.0.3"
 #define PROPERTY_LENGTH_LIMITATION 8191
 /**
  * @abstract
@@ -353,7 +353,7 @@ static SensorsAnalyticsSDK *sharedInstance = nil;
             [self archiveLoginId];
             if (![loginId isEqualToString:[self distinctId]]) {
                 self.originalId = [self distinctId];
-                [self track:@"$SignUp" withProperties:nil withType:@"track_signup"];
+                [self track:@"$SignUp" withProperties:properties withType:@"track_signup"];
             }
         }
     });
@@ -570,6 +570,7 @@ static SensorsAnalyticsSDK *sharedInstance = nil;
         }
     }
 
+    propertieDict = [propertieDict copy];
     if (propertieDict) {
         if (![self assertPropertyTypes:&propertieDict withEventType:type]) {
             SAError(@"%@ failed to track event.", self);

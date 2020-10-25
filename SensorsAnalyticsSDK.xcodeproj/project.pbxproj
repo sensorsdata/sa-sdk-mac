@@ -15,7 +15,6 @@
 		4D36B5CF23AA00A800AADD3E /* SensorsAnalyticsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36B5BA23AA00A700AADD3E /* SensorsAnalyticsSDK.m */; };
 		4D36B5D023AA00A800AADD3E /* SAReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D36B5BB23AA00A700AADD3E /* SAReachability.h */; };
 		4D36B5D123AA00A800AADD3E /* SAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36B5BC23AA00A700AADD3E /* SAReachability.m */; };
-		4D36B5D223AA00A800AADD3E /* SAKeyChainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D36B5BD23AA00A700AADD3E /* SAKeyChainItemWrapper.h */; };
 		4D36B5D323AA00A800AADD3E /* SACommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36B5BE23AA00A800AADD3E /* SACommonUtility.m */; };
 		4D36B5D423AA00A800AADD3E /* SensorsAnalyticsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D36B5BF23AA00A800AADD3E /* SensorsAnalyticsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D36B5D523AA00A800AADD3E /* SensorsAnalyticsExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D36B5C023AA00A800AADD3E /* SensorsAnalyticsExceptionHandler.h */; };
@@ -28,7 +27,6 @@
 		4D36B5DC23AA00A800AADD3E /* SALogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36B5C723AA00A800AADD3E /* SALogger.m */; };
 		4D36B5DD23AA00A800AADD3E /* JSONUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D36B5C823AA00A800AADD3E /* JSONUtil.h */; };
 		4D36B5DE23AA00A800AADD3E /* JSONUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36B5C923AA00A800AADD3E /* JSONUtil.m */; };
-		4D36B5DF23AA00A800AADD3E /* SAKeyChainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36B5CA23AA00A800AADD3E /* SAKeyChainItemWrapper.m */; };
 		4D36B5E023AA00A800AADD3E /* SAGzipUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D36B5CB23AA00A800AADD3E /* SAGzipUtility.h */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +51,6 @@
 		4D36B5BA23AA00A700AADD3E /* SensorsAnalyticsSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorsAnalyticsSDK.m; sourceTree = "<group>"; };
 		4D36B5BB23AA00A700AADD3E /* SAReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAReachability.h; sourceTree = "<group>"; };
 		4D36B5BC23AA00A700AADD3E /* SAReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAReachability.m; sourceTree = "<group>"; };
-		4D36B5BD23AA00A700AADD3E /* SAKeyChainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAKeyChainItemWrapper.h; sourceTree = "<group>"; };
 		4D36B5BE23AA00A800AADD3E /* SACommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACommonUtility.m; sourceTree = "<group>"; };
 		4D36B5BF23AA00A800AADD3E /* SensorsAnalyticsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorsAnalyticsSDK.h; sourceTree = "<group>"; };
 		4D36B5C023AA00A800AADD3E /* SensorsAnalyticsExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorsAnalyticsExceptionHandler.h; sourceTree = "<group>"; };
@@ -66,7 +63,6 @@
 		4D36B5C723AA00A800AADD3E /* SALogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SALogger.m; sourceTree = "<group>"; };
 		4D36B5C823AA00A800AADD3E /* JSONUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONUtil.h; sourceTree = "<group>"; };
 		4D36B5C923AA00A800AADD3E /* JSONUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONUtil.m; sourceTree = "<group>"; };
-		4D36B5CA23AA00A800AADD3E /* SAKeyChainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAKeyChainItemWrapper.m; sourceTree = "<group>"; };
 		4D36B5CB23AA00A800AADD3E /* SAGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAGzipUtility.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,8 +117,6 @@
 				4D36B5BE23AA00A800AADD3E /* SACommonUtility.m */,
 				4D36B5CB23AA00A800AADD3E /* SAGzipUtility.h */,
 				4D36B5B723AA00A700AADD3E /* SAGzipUtility.m */,
-				4D36B5BD23AA00A700AADD3E /* SAKeyChainItemWrapper.h */,
-				4D36B5CA23AA00A800AADD3E /* SAKeyChainItemWrapper.m */,
 				4D36B5C623AA00A800AADD3E /* SALogger.h */,
 				4D36B5C723AA00A800AADD3E /* SALogger.m */,
 				4D36B5BB23AA00A700AADD3E /* SAReachability.h */,
@@ -160,7 +154,6 @@
 				4D36B5D423AA00A800AADD3E /* SensorsAnalyticsSDK.h in Headers */,
 				4D36B5D523AA00A800AADD3E /* SensorsAnalyticsExceptionHandler.h in Headers */,
 				4D36B5DD23AA00A800AADD3E /* JSONUtil.h in Headers */,
-				4D36B5D223AA00A800AADD3E /* SAKeyChainItemWrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +259,6 @@
 				4D36B5DC23AA00A800AADD3E /* SALogger.m in Sources */,
 				4D36B5DE23AA00A800AADD3E /* JSONUtil.m in Sources */,
 				4D36B5DA23AA00A800AADD3E /* MessageQueueBySqlite.m in Sources */,
-				4D36B5DF23AA00A800AADD3E /* SAKeyChainItemWrapper.m in Sources */,
 				4D36B5D123AA00A800AADD3E /* SAReachability.m in Sources */,
 				4D36B5CC23AA00A800AADD3E /* SAGzipUtility.m in Sources */,
 				4D36B5CF23AA00A800AADD3E /* SensorsAnalyticsSDK.m in Sources */,
@@ -427,7 +419,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sensorsdata.SensorsAnalyticsSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -452,7 +444,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sensorsdata.SensorsAnalyticsSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
