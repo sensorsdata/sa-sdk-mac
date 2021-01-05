@@ -29,12 +29,13 @@
 
 ## 讨论
 
-可以扫码加入神策官方 SDK QQ 讨论群：<br><br>
-![ QQ 讨论群](https://github.com/sensorsdata/sa-sdk-android/raw/master/docs/qrCode.jpeg)
+| 扫码加入神策数据开源社区 QQ 群<br>群号：785122381 | 扫码加入神策数据开源社区微信群 |
+| ------ | ------ |
+|![ QQ 讨论群](https://opensource.sensorsdata.cn/wp-content/uploads/ContentCommonPic_1.png) | ![ 微信讨论群 ](https://opensource.sensorsdata.cn/wp-content/uploads/ContentCommonPic_2.png) |
 
 ## License
 
-Copyright 2015－2019 Sensors Data Inc.
+Copyright 2015－2021 Sensors Data Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
