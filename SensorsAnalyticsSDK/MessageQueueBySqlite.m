@@ -174,9 +174,9 @@
     return _messageCount;
 }
 
-- (NSInteger) sqliteCount {
+- (NSUInteger) sqliteCount {
     NSString* query = @"select count(*) from dataCache";
-    NSInteger count = -1;
+    NSUInteger count = 0;
     sqlite3_stmt* statement = [self dbCacheStmt:query];
     if(statement) {
         while (sqlite3_step(statement) == SQLITE_ROW) {
